@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+.CodeShowcase {
+    min-height: 80px;
+    padding: 1rem;
+    width: 100%;
+    border: 4px solid var(--primary-color);
+    border-radius: 10px;
+    text-align: left;
+    box-shadow: inset 0 2px 6px #04490bb0;
+    position: relative;
+}
+
+.Copy_Btn {
+    position: absolute;
+    right: 10px;
+    font-family: inherit;
+    top: 10px;
+    border: #eee;
+    padding: .5rem .6rem;
+    cursor: pointer;
+    background-color: #cccccc;
+    border-radius: 5px;
+}
+
+.CodeShowcase_area {
+    border: none;
+    padding: .2rem;
+    font-family: 'Fira Code', monospace;
+    resize: none;
+}
+
+.CodeShowcase_area:focus {
+    outline: none;
+    border: none;
+}
+
+.Copy_Btn:focus {
+    border: 2px solid #444;
+    outline-width: 0;
+
+}

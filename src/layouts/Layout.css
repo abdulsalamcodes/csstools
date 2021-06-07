@@ -1,0 +1,10 @@
+.main_layout {
+    display: grid;
+    grid-template-columns: minmax(10%, 200px) 1fr;
+    height: 100vh;
+}
+
+.content_layout  {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}

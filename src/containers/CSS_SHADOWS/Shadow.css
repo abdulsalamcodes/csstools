@@ -1,0 +1,13 @@
+.Shadow {
+    padding: 1rem;
+    height: 100%;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: 1fr minmax(20%, 300px);
+}
+
+.Shadow_content  {
+    height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}

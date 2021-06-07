@@ -1,0 +1,18 @@
+.Preview {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Preview_box {
+    height: 200px;
+    width: 200px;
+    background-color: var(--primary-color);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--primary-light-color);
+    border-radius: 10px;
+
+}
