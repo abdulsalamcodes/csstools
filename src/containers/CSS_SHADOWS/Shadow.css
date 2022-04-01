@@ -6,6 +6,11 @@
     grid-template-columns: 1fr minmax(20%, 300px);
 }
 
+
+@media (min-width: 768px) {
+    
+}
+
 .Shadow_content  {
     height: 100%;
     display: grid;

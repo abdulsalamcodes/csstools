@@ -35,6 +35,7 @@
 }
 .controller_input {
     width: 100%;
+    cursor: pointer;
     flex: 1;
 
 }
